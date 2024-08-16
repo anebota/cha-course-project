@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Networking Basics for Beginners</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/course.css">
+</head>
+
+<body class="full-screen">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-9">
+        <div class="d-flex">
+          <button id="home" type="button" class="btn btn-primary btn-md">
+            <i class="fa fa-home"></i>
+          </button>
+          <h1 id="title" style="margin-left: 15px;">Computer Networking Basics for Beginners</h1>
+        </div>
+      </div>
+      <div class="col-3">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a id="learn" class="nav-link active">Learning Material</a>
+          </li>
+          <li class="nav-item">
+            <a id="quiz" class="nav-link disabled">Knowledge Check</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row h-90 learn">
+      <div class="col-9">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-interval="false"
+          data-bs-ride="false" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div id="slide1" class="carousel-item active" data-index="1">
+              <img src="../../img/course/tutorials/Learning.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide2" class="carousel-item" data-index="2">
+              <img src="img/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide3" class="carousel-item" data-index="3">
+              <img src="img/3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide4" class="carousel-item" data-index="4">
+              <img src="img/4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide5" class="carousel-item" data-index="5">
+              <img src="img/5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide6" class="carousel-item" data-index="6">
+              <img src="img/6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide7" class="carousel-item" data-index="7">
+              <img src="img/7.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide8" class="carousel-item" data-index="8">
+              <img src="img/8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide9" class="carousel-item" data-index="9">
+              <img src="img/9.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide10" class="carousel-item" data-index="10">
+              <img src="img/10.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide11" class="carousel-item" data-index="11">
+              <img src="img/11.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide12" class="carousel-item" data-index="12">
+              <img src="img/12.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide13" class="carousel-item" data-index="13">
+              <img src="img/13.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div id="slide14" class="carousel-item" data-index="14">
+              <img src="../../img/course/tutorials/Knowledge.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div id="content" class="overflow-auto" style="height: calc(100vh - 150px);">
+          <section id="section1" class="learnsection active">
+            <h2>Welcome!</h2>
+            <p>Here is a quick tutorial before you begin:</p>
+            <ul class="no-bullets">
+              <li>1. Press the Play button to listen to the content</li>
+              <li>2. Press the Stop button to stop the audio</li>
+              <li>3. Press the Backward arrow button to go to the previous slide</li>
+              <li>4. Press the Next arrow button to go to the next slide</li>
+            </ul>
+          </section>
+
+          <section id="section2" class="learnsection">
+            <h2>Introduction</h2>
+            <b>Course Overview:</b>
+            <p>By the end of this session, you will be able to understand the following:</p>
+            <ul>
+              <li>Introduction to Computer Networks</li>
+              <li>What is a Network?</li>
+              <li>Types of Networks</li>
+              <li>Network Hardware Components</li>
+              <li>Networking Terms</li>
+              <li>Client - Server</li>
+              <li>Network Addressing
+                <ul>
+                  <li>MAC Addresses</li>
+                  <li>IPv4 Addresses</li>
+                  <li>IPv6 Addresses</li>
+                </ul>
+              </li>
+              <li>Networking Protocols</li>
+              <li>Common Networking Models
+                <ul>
+                  <li>OSI Network Model</li>
+                  <li>TCP/IP Network Model</li>
+                </ul>
+              </li>
+              <li>Conclusion</li>
+            </ul>
+            <p>Author: KIRU Martin</p>
+            <p>Designer: YUNIKA Giles</p>
+            </p>
+
+          </section>
+
+          <section id="section3" class="learnsection">
+            <h2>Introduction to Computer Networks</h2>
+            <b>What is a Network?</b><br/>
+            <p>A network is a collection of interconnected devices that can communicate with each other. For example, a home network can connect devices like laptops, smartphones, and smart TVs to each other and the internet.</p>
+            <b>Everyday Uses of Networks:</b>
+            <p>A network can be used for accessing the internet, streaming media, online gaming, business communication, connecting smart home devices. For example, streaming a movie on Netflix requires your device to communicate with Netflix’s servers over the internet.</p>
+          </section>
+
+          <section id="section4" class="learnsection">
+            <h2>Types of Networks</h2>
+            <b>Local Area Network (LAN)</b><br/>
+            <p>This is a network that covers a small geographic area, like a home, office, or building. For example, the network in your home that connects your router to your computer and smartphone.</p>
+            <b>Wide Area Network (WAN)</b></br>
+            <p>This is a network that covers a large geographic area, such as a city, country, or the entire globe. For example, the internet, which connects networks across the world.</p>
+            <b>Personal Area Network (PAN)</b></br>
+            <p>A network for personal devices, typically within a range of a few meters. For example, Bluetooth connections between a smartphone and wireless headphones.</p>
+          </section>
+
+          <section id="section5" class="learnsection">
+            <b>Network Hardware Components</b><br>
+            <p>These are the physical elements that can be used to set up a physical network among devices to enable them to communicate with each other.</p>
+            <ul>
+              <li><b>Routers</b></li>
+              <p>These are devices that forward data packets between computer networks, directing traffic on the internet. For example, your home router connects your local network to your ISP’s network, enabling internet access.</p>
+              <li><b>Switches</b></li>
+              <p>These are devices that connect multiple devices within a LAN, using MAC addresses to forward data to the correct destination. For example, in an office, a switch connects multiple computers to form a single network.</p>
+              <li><b>Network Interface Cards (NICs</b></li>
+              <p>These are hardware components that enable a computer to connect to a network and provide the physical interface for networking. For example, the Ethernet port on your computer is part of the NIC.</p>
+              <li><b> Access Points</b></li>
+              <p>These are devices that allow wireless devices to connect to a wired network using Wi-Fi. For example, the wireless router in your home also acts as an access point or when you activate hotspot on your phone, it acts like an Access Point.</p>
+              <li><b>Ethernet Cables</b></li>
+              <p>Physical cables are used to connect devices within a LAN, providing a wired network connection. For example, the cable connecting your computer to your router or school switch. Cables used can be copper based or fiber optic cables depending on the application.</p>
+              <li><b>Wireless Network Cards</b></li>
+              <p>A wireless network card is essentially the hardware component that allows your device (like a computer, laptop, or smartphone) to connect to a wireless network. It's the bridge between your device and the world of Wi-Fi.</p>
+            </ul>
+            
+          </section>
+
+          <section id="section6" class="learnsection">
+            <h2>Networking Terms</h2>
+            <b>Nodes</b><br>
+            <p>Nodes are devices connected to the network, such as printers, routers, or smartphones. i.e a printer that is connected to a network is a node.</p>
+            <b>Hosts</b><br>
+            <p>These are end devices that are assigned IP addresses and can send/receive data on a network. For example, your laptop is a host on your home network.</p>
+
+          </section>
+
+          <section id="section7" class="learnsection">
+            <h2>Clients and Servers</h2>
+            <p>On a network, Clients request services or resources (e.g., a web browser on your computer), while Servers provide services or resources (e.g., a web server hosting a website). For example, when you access Google, your browser (client) requests the webpage from Google’s servers.</p>
+ 
+          </section>
+
+          <section id="section8" class="learnsection">
+            <h2>Network Addressing</h2>
+            <b>MAC Addresses</b><br>
+            <p>A MAC (Media Access Control) Address is a unique identifier assigned to the network interface for communications within a network segment. This address is often written as 6 blocks of 12 hexadecimal numbers separated by a dash (-) or column (:). For example, 00:1A:2B:3C:4D:5E is a MAC address for a NIC. This address is unique for every device and no two devices in the world can have the same MAC address.
+              The first 3 blocks of the MAC address identify the company issuing the device and the last 3 blocks identify the number of the device.</p>
+             <b>IP Addressing</b><br> 
+             <p>Imagine you're sending a letter. You need an address to get it to the right place, right? Well, in the world of computers, that address is called an IP address.
+              An IP address is a unique identifier assigned to every device connected to a network using Internet Protocol for communication. It's like a digital postal code for your computer, smartphone, or any other device that can connect to the internet. Think of it as the way computers find each other and communicate.
+              There are two main types of IP addresses:<br>
+              <b>IPv4:</b> An IPv4 address identifies a node on an IP network and consists of four numbers (each between 0 and 255)<br>
+              <b>IPv6:</b> This is the newer version, designed to handle the growing number of devices connected to the internet. It uses a longer, more complex format.</p>
+              <ul>
+                <li><b>Structure of an IPv4 Address</b></li>
+                <p>An IPv4 address identifies a node on an IP network and consists of four numbers (each between 0 and 255) separated by periods (e.g., 192.168.1.1). For example, 192.168.1.1 is a common default IP address for home routers. This address must be unique for each host connected to the same network.
+                </p>
+                <li><b>Classes of IPv4 Addresses</b></li>
+                <p>IP addresses are divided into classes. The possible maximum number of devices that can be present on a particular network will determine the class of IPs the network should use.</p>
+                <ul>
+                  <li>Class A: For large networks (1.0.0.0 to 126.0.0.0)</li>
+                  <li>Class B: For medium-sized networks (128.0.0.0 to 191.255.0.0)</li>
+                  <li>Class C: For small networks (192.0.0.0 to 223.255.255.0)</li>
+                  <li>Class D: For multicast groups (224.0.0.0 to 239.255.255.255)</li>
+                  <li>Class E: Reserved for future use (240.0.0.0 to 255.255.255.255)</li>
+                </ul>
+                
+          </section>
+
+          <section id="section9" class="learnsection">
+            <h2>Types of IPv4 Addresses</h2>
+            <li>Public IP Addresses: These IPs are routable on the internet, assigned by ISPs. You will also need to pay to use a public IP address</li>
+            <li>Private IP Addresses: These IPs are used within local networks, and are not routable on the internet.</li>
+            <p><b>Examples</b></p>
+             <b>Class A Private:</b>10.0.0.0 to 10.255.255.255</p>
+             <b>Class B Private:</b>172.16.0.0 to 172.31.255.255</p>
+             <b>Class C Private:</b>192.168.0.0 to 192.168.255.255</b>
+          </ul>
+         <b>IPv6 Addressing</b><br>
+          <ul>
+            <li><b>Structure of an IPv6 Address</b></li>
+            <p>An IP version 6 (IPv6) address consists of eight groups of four hexadecimal digits separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).</p>
+            <li><b>Advantages of IPv6</b></li>
+            <p>IPv6 provides a larger address space enabling the connection of many more devices to the internet as a whole.
+              It also provides enhanced security features and improved routing efficiency.</p>
+
+          </ul>
+          </section>
+
+          <section id="section10" class="learnsection">
+            <h2>Networking Protocols</h2>
+            <p>A networking protocol is a set of rules and standards that govern how devices communicate with each other on a network. It defines the format, order, and content of messages exchanged between network devices.</p>
+            <ul>
+              <li><b>HTTP/HTTPS</b></li>
+              <p>HyperText Transfer Protocol and the secure version are protocols used for transmitting web pages over the internet. HTTP is unencrypted, HTTPS is encrypted for security. For example, accessing a secure website like https://www.bank.com uses HTTPS</p>
+              <li><b>DNS</b></li>
+              <p>All servers on the internet have IP addresses. Since humans are not good at recalling numbers, the Domain Name System is used to translate human-friendly domain names (e.g., www.example.com) into IP addresses. For example, typing “www.google.com” in your browser resolves to an IP address like 142.250.72.78.</p>
+              <li><b>DHCP</b></li>
+              <p>For devices to communicate with each other on an IP network, IP addresses must be configured on them. One way is to move from device to device to configure these addresses manually. 
+                Alternatively, a DHCP (Dynamic Host Configuration Protocol) server can be used to automatically assign IP addresses to devices that join the network. For example, when you connect to a Wi-Fi network, DHCP assigns your device an IP address.</p>
+
+            </ul>
+          </section>
+
+          <section id="section11" class="learnsection">
+            <h2> Common Networking Models</h2>
+            <p>A networking model is a conceptual framework that divides the complex process of network communication into smaller, more manageable layers or levels. It provides a standardized structure for understanding, designing, and troubleshooting networks.</p>
+            <b>OSI Model</b><br>
+            <p>The Open Systems Interconnection (OSI) model is the most well-known networking model. It divides network communication into seven layers, each with specific functions.</p>
+            <b>Overview of the 7 Layers</b><br />
+            <ul>
+              <li>Layer 1: Physical: Hardware transmission of raw data over a medium (e.g., cables).</li>
+              <li>Layer 2: Data Link: Handles error correction from the physical layer. Network switches operate in this layer
+              </li>
+              <li>Layer 3: Network: Determines how data is sent to the receiving devices (IP addressing). Routers operate in this layer
+              </li>
+              <li>Layer 4: Transport: Ensures complete data transfer (TCP/UDP).
+              </li>
+              <li>Layer 5: Session: Manages sessions between applications.
+              </li>
+              <li>Layer 6: Presentation: Translates data for the application layer.</li>
+              <li>Layer 7: Application: Provides network services to applications.</li>
+          </ul>
+          <p>When you send an email, each layer handles different aspects of the data transfer.</p>
+
+            
+          </section>
+
+          <section id="section12" class="learnsection">
+            <h2>Common Networking Models</h2>
+            <b>TCP/IP Model</b>
+            <p>The TCP/IP model is a simplified version of the OSI model, specifically designed for the internet. It outlines how data is transmitted across networks. TCP/IP stands for Transmission Control Protocol/Internet Protocol, which are two core protocols used in this model.</p><br>
+            <p>Unlike the OSI model, which has seven layers, the TCP/IP model consists of four layers.</p>
+            <b>Overview of the 4 Layers</b><br>
+            <ul>
+              <li>Layer 4: Application Layer: The top layer, responsible for user-facing applications and protocols like HTTP, FTP, and email. (equivalent to OSI Layers 5-7).</li>
+              <li>Layer 3: Transport Layer: Handles end-to-end communication, ensuring reliable data delivery. Protocols like TCP and UDP operate at this layer. (equivalent to OSI Layer 4).</li>
+              <li>Layer 2: Internet Layer: Routes packets across networks using IP addresses (equivalent to OSI Layer 3).</li>
+              <li>Network Access Layer: Handles physical transmission of data, including protocols for accessing the network medium</li>
+            </ul>
+            <p>The <b>TCP/IP</b> model is more practical and widely used in network engineering and administration.</p>
+ 
+            </ul>
+          </section>
+
+          <section id="section13" class="learnsection">
+            <h2>Conclusion</h2>
+            <p>In this course, we've covered the essential concepts of computer networking, from understanding what a network is to exploring network protocols, addressing, and models. You now have a solid foundation in how networks operate, the different types of networks, and the key hardware components involved.
+              With this knowledge, you're equipped to further explore the world of networking, whether as a professional or an enthusiast. Remember, networking is ever evolving, so continue to learn and experiment. The skills you've <b>gained</b> here are just the beginning of your journey in mastering computer networking.
+            </p>  
+          </section>
+          <section id="section14" class="learnsection">
+            <h2>Congratulations!</h2>
+            <p>What is next for you? Let's do a knowledge check to see if you completely grasped the concepts you
+              just learned.</p>
+            <ul class="no-bullets">
+              <li>1. Click on the Knowledge Check tab on the top right of your screen and take the quiz.</li>
+              <li>2. Click on the Learning Material to return for any help.</li>
+            </ul>
+            <p>If you require additional help please reach out in any of the Chat Groups.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="row h-90 quiz hide">
+      <div class="col-9">
+        <div id="quizcontent" class="overflow-auto">
+          <section id="q1" class="questions active" data-index="1">
+            <h3>1) What is the primary difference between a Local Area Network (LAN) and a Wide Area Network (WAN)?</h3>
+
+            <input type="radio" name="q1a" class="answer q1 incorrect" id="q1-1">
+            <input type="radio" name="q1a" class="answer q1 correct" id="q1-2">
+            <input type="radio" name="q1a" class="answer q1 incorrect" id="q1-3">
+            <input type="radio" name="q1a" class="answer q1 incorrect" id="q1-4">
+
+            <label for="q1-1" class="box q1-1">
+              <div class="course"> <span class="circle"></span> <span class="subject"> a) A LAN covers a large geographic area, while a WAN covers a small area. </span> </div>
+            </label>
+            <label for="q1-2" class="box q1-2">
+              <div class="course"> <span class="circle"></span> <span class="subject"> b) A LAN connects devices within a limited area like a home, while a WAN covers larger areas such as cities or countries. </span> </div>
+            </label>
+            <label for="q1-3" class="box q1-3">
+              <div class="course"> <span class="circle"></span> <span class="subject"> c) A LAN is wireless, while a WAN is wired. </span> </div>
+            </label>
+            <label for="q1-4" class="box q1-4">
+              <div class="course"> <span class="circle"></span> <span class="subject"> d) A LAN uses IP addresses, while a WAN does not. </span></div>
+            </label>
+            <div class="submit">
+              <button type="button" class="btn btn-primary btn-md quizbutton" id="q1b" onclick="">Submit</button>
+            </div>
+          </section>
+
+          <section id="q2" class="questions" data-index="2">
+            <h3>2) Which device is responsible for forwarding data packets between different networks?</h3>
+
+            <input type="radio" name="q2a" class="answer q2 incorrect" id="q2-1">
+            <input type="radio" name="q2a" class="answer q2 incorrect" id="q2-2">
+            <input type="radio" name="q2a" class="answer q2 correct" id="q2-3">
+            <input type="radio" name="q2a" class="answer q2 incorrect" id="q2-4">
+
+            <label for="q2-1" class="box q2-1">
+              <div class="course"> <span class="circle"></span> <span class="subject"> a) Switch </span> </div>
+            </label>
+            <label for="q2-2" class="box q2-2">
+              <div class="course"> <span class="circle"></span> <span class="subject"> b) Access Point </span> </div>
+            </label>
+            <label for="q2-3" class="box q2-3">
+              <div class="course"> <span class="circle"></span> <span class="subject"> c) Router </span> </div>
+            </label>
+            <label for="q2-4" class="box q2-4">
+              <div class="course"> <span class="circle"></span> <span class="subject"> d) Network Interface Card (NIC) </span></div>
+            </label>
+            <div class="submit">
+              <button type="button" class="btn btn-primary btn-md quizbutton" id="q2b" onclick="">Submit</button>
+            </div>
+          </section>
+
+          <section id="q3" class="questions" data-index="3">
+            <h3>3) What is an IP address primarily used for in networking?
+            </h3>
+
+            <input type="radio" name="q3a" class="answer q3 incorrect" id="q3-1">
+            <input type="radio" name="q3a" class="answer q3 incorrect" id="q3-2">
+            <input type="radio" name="q3a" class="answer q3 correct" id="q3-3">
+            <input type="radio" name="q3a" class="answer q3 incorrect" id="q3-4">
+
+            <label for="q3-1" class="box q3-1">
+              <div class="course"> <span class="circle"></span> <span class="subject"> a)  Identifying a device's MAC address </span> </div>
+            </label>
+            <label for="q3-2" class="box q3-2">
+              <div class="course"> <span class="circle"></span> <span class="subject"> b)  Encrypting data on a network </span> </div>
+            </label>
+            <label for="q3-3" class="box q3-3">
+              <div class="course"> <span class="circle"></span> <span class="subject"> c) Uniquely identifying a device on a network for communication </span> </div>
+            </label>
+            <label for="q3-4" class="box q3-4">
+              <div class="course"> <span class="circle"></span> <span class="subject"> d) Providing wireless access to devices </span></div>
+            </label>
+            <div class="submit">
+              <button type="button" class="btn btn-primary btn-md quizbutton" id="q3b" onclick="">Submit</button>
+            </div>
+          </section>
+
+          <section id="q4" class="questions" data-index="4">
+            <h3>4) Which of the following IP address classes is typically used for small networks?</h3>
+
+            <input type="radio" name="q4a" class="answer q4 incorrect" id="q4-1">
+            <input type="radio" name="q4a" class="answer q4 incorrect" id="q4-2">
+            <input type="radio" name="q4a" class="answer q4 correct" id="q4-3">
+            <input type="radio" name="q4a" class="answer q4 incorrect" id="q4-4">
+
+            <label for="q4-1" class="box q4-1">
+              <div class="course"> <span class="circle"></span> <span class="subject"> a) Class A
+              </span> </div>
+            </label>
+            <label for="q4-2" class="box q4-2">
+              <div class="course"> <span class="circle"></span> <span class="subject"> b) Class B </span> </div>
+            </label>
+            <label for="q4-3" class="box q4-3">
+              <div class="course"> <span class="circle"></span> <span class="subject"> c) Class C </span> </div>
+            </label>
+            <label for="q4-4" class="box q4-4">
+              <div class="course"> <span class="circle"></span> <span class="subject"> d) Class D </span></div>
+            </label>
+            <div class="submit">
+              <button type="button" class="btn btn-primary btn-md quizbutton" id="q4b" onclick="">Submit</button>
+            </div>
+          </section>
+
+          <section id="q5" class="questions" data-index="5">
+            <h3>5) In the OSI model, which layer is responsible for routing data across networks using IP addresses?
+            </h3>
+
+            <input type="radio" name="q5a" class="answer q5 incorrect" id="q5-1">
+            <input type="radio" name="q5a" class="answer q5 incorrect" id="q5-2">
+            <input type="radio" name="q5a" class="answer q5 correct" id="q5-3">
+            <input type="radio" name="q5a" class="answer q5 incorrect" id="q5-4">
+
+            <label for="q5-1" class="box q5-1">
+              <div class="course"> <span class="circle"></span> <span class="subject"> a) Physical Layer </span> </div>
+            </label>
+            <label for="q5-2" class="box q5-2">
+              <div class="course"> <span class="circle"></span> <span class="subject"> b)  Transport Layer </span> </div>
+            </label>
+            <label for="q5-3" class="box q5-3">
+              <div class="course"> <span class="circle"></span> <span class="subject"> c) Network Layer </span> </div>
+            </label>
+            <label for="q5-4" class="box q5-4">
+              <div class="course"> <span class="circle"></span> <span class="subject"> d) Application Layer </span></div>
+            </label>
+            <div class="submit">
+              <button type="button" class="btn btn-primary btn-md quizbutton" id="q5b" onclick="">Submit</button>
+            </div>
+          </section>
+
+
+          <section id="q6" class="questions" data-index="6">
+            <canvas id="confetti"></canvas>
+            <h3>Congratulations! Your Knowledge is 100%</h3>
+            <p>You can now proceed to the next course on your learning path. If one is not availble please inquire with
+              the community. We are releasing new courses periodicly, so keep a lookout for them.</p>
+            <p>Good luck! Keep learning and growing!</p>
+          </section>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="overflow-auto" style="height: calc(100vh - 140px);">
+          <section id="quizhint"></section>
+        </div>
+      </div>
+    </div>
+    <div class="row controls">
+      <div class="col-7">
+        <button id="play" type="button" class="btn btn-danger btn-md">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button id="stop" type="button" class="btn btn-dark btn-md">
+          <i class="fa-solid fa-stop"></i>
+        </button>
+        <button id="prev" type="button" class="btn btn-primary btn-md disabled"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button id="next" type="button" class="btn btn-primary btn-md" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <select id="voices" class="form-select-lg select"></select>
+        <button id="fullscreen" type="button" class="btn btn-primary btn-md">
+          <i class="fa-solid fa-expand"></i>
+        </button>
+      </div>
+      <div class="col-2 controls align-right">
+        <input id="auto" class="check-input" type="checkbox" value="">
+        <label class="form-check-label" for="check-input" style="margin-right: 15px;">
+          Play On Next
+        </label>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div id="progress" class="progress-bar bg-success" role="progressbar">
+            0%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+  <script type="text/javascript" src="../../js/course.js"></script>
+</body>
+
+</html>
